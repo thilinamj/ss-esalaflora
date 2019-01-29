@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="034e4360-d45f-48a9-97a7-4d9b3dbe1adc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/dist/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/static/sourcemaps/app.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
           <entry key="env" value="1" />
           <entry key="json" value="1" />
           <entry key="php" value="4" />
-          <entry key="scss" value="2" />
+          <entry key="scss" value="3" />
           <entry key="ss" value="3" />
           <entry key="yml" value="1" />
         </counts>
@@ -42,7 +40,7 @@
           <entry key="JSON" value="1" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="2" />
+          <entry key="SCSS" value="3" />
           <entry key="SilverStripe" value="3" />
           <entry key="YAML" value="1" />
         </counts>
@@ -51,36 +49,27 @@
         <counts>
           <entry key="env" value="5" />
           <entry key="php" value="38" />
-          <entry key="scss" value="63" />
-          <entry key="ss" value="450" />
+          <entry key="scss" value="279" />
+          <entry key="ss" value="612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="63" />
-          <entry key="SilverStripe" value="450" />
+          <entry key="SCSS" value="279" />
+          <entry key="SilverStripe" value="612" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Includes/Header.ss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
+            <state relative-caret-position="97">
+              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -91,71 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pages/Services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/Page.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/controllers/ServiceController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Page.ss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -482,18 +408,18 @@
       <workItem from="1548674488267" duration="1700000" />
       <workItem from="1548676863032" duration="2325000" />
       <workItem from="1548730712100" duration="10343000" />
-      <workItem from="1548746760139" duration="6832000" />
+      <workItem from="1548746760139" duration="9110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25398000" />
+    <option name="totallyTimeSpent" value="27676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1414" height="865" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -506,7 +432,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988358" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41785252" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41785252" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -656,10 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/controllers/ServiceController.php">
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Page.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="395">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -670,24 +596,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Page.ss">
+    <entry file="file://$PROJECT_DIR$/app/src/controllers/ServiceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="68" selection-end-column="10" />
+        <state relative-caret-position="97">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
