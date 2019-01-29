@@ -1,0 +1,32 @@
+
+
+
+
+.card-block{
+
+  margin-top: 20px;
+
+  &__content{
+    text-align: center;
+
+
+
+  .card{
+    border-color: black;
+
+  }
+  }
+
+  &__img{
+    width: 100%;
+  }
+
+
+  @include breakpoint(medium) {
+
+    &__content{
+    padding-right: 20px;
+    }
+
+  }
+  }
