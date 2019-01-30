@@ -1,32 +1,38 @@
-
-
-
-
 .card-block{
 
-  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+
 
   &__content{
     text-align: center;
+    margin-left: 10px;
+
+    .card{
+
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+      box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
 
 
+      &:hover {
+       border-color: red;
+      }
 
-  .card{
-    border-color: black;
-
-  }
+    }
   }
 
   &__img{
     width: 100%;
   }
 
-
   @include breakpoint(medium) {
 
     &__content{
-    padding-right: 20px;
+      justify-content: space-between;
+      align-items: center;
     }
-
   }
-  }
+}

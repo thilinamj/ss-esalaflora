@@ -1,0 +1,49 @@
+.contact {
+
+  &__form {
+    margin-bottom: 40px;
+  }
+
+  &__info {
+    font-size: 18px;
+
+    h5 {
+
+    }
+
+    address {
+      font-style: normal;
+    }
+
+    .links {
+      margin: 20px 0 0;
+
+      li {
+        list-style: none;
+        list-style-type: none;
+
+        a {
+          word-break: break-word;
+
+          &:hover{
+            color: get-color('secondary');
+          }
+        }
+      }
+    }
+  }
+
+  @include breakpoint(large) {
+
+    &__form {
+      margin-bottom: 0;
+    }
+
+    &__info {
+
+      .links {
+        margin: 30px 0 0;
+      }
+    }
+  }
+}

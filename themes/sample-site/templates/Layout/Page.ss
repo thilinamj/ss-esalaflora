@@ -1,5 +1,5 @@
 <div class="block hero">
-    <div class="grid-container">
+    <div class="">
         <div class="hero__slider js-slider">
             <div class="hero-slide">
                 <div class="hero-slide-image lazy"
@@ -37,9 +37,8 @@
 
 <div class="card-block">
     <div class="grid-container">
-    <div class="grid-x">
+    <div class="grid-x grid-margin-x ">
         <div class="cell small-12 medium-4 card-block__content">
-
             <div class="card" >
                 <div class="card-divider">
                     This is a header
