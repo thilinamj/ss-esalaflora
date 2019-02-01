@@ -1,5 +1,14 @@
 
-<div class="block contact">
+<div class="contact-hero">
+<div class="contact-hero__image lazy"
+     style="background-image: url('$resourceURL('themes/sample-site/static/images/cms/hero.png')');"
+     data-src="$resourceURL('themes/sample-site/static/images/cms/hero.png')">
+</div>
+</div>
+<%--$HelloForm--%>
+
+<%--$Form--%>
+$Form
     <div class="grid-container">
         <div class="grid-x grid-margin-x">
             <div class="cell small-12 medium-6 large-6 contact__form">
@@ -8,25 +17,20 @@
                         <div class="field text">
                             <label class="left">Name</label>
                             <div class="middleColumn">
-                                <input type="text" name="name" class="text">
+                                <input type="text" name="$Name" class="text">
                             </div>
                         </div>
                         <div class="field text">
                             <label class="left">E-mail</label>
                             <div class="middleColumn">
-                                <input type="email" name="email" class="text">
+                                <input type="email" name="$Email" class="text">
                             </div>
                         </div>
-                        <div class="field text">
-                            <label class="left">Phone</label>
-                            <div class="middleColumn">
-                                <input type="text" name="name" class="text">
-                            </div>
-                        </div>
+
                         <div class="field textarea">
                             <label class="left">Text</label>
                             <div class="middleColumn">
-                                <textarea name="message" class="textarea" rows="5" cols="20"></textarea>
+                                <textarea name="$Message" class="textarea" rows="5" cols="20"></textarea>
                             </div>
                         </div>
                     </fieldset>

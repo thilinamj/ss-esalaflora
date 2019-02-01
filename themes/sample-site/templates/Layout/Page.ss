@@ -1,5 +1,5 @@
 <div class="block hero">
-    <div class="">
+    <div class="grid-container">
         <div class="hero__slider js-slider">
             <div class="hero-slide">
                 <div class="hero-slide-image lazy"
@@ -34,6 +34,8 @@
         <div class="hero__slider__arrows js-slider-arrow"></div>
     </div>
 </div>
+
+
 
 <div class="card-block">
     <div class="grid-container">

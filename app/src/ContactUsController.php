@@ -1,33 +1,106 @@
 <?php
 
 namespace {
-
+    use SilverStripe\Control\Email\Email;
     use SilverStripe\CMS\Controllers\ContentController;
+    use SilverStripe\Forms\FieldList;
+    use SilverStripe\Forms\TextareaField;
+    use SilverStripe\Forms\TextField;
+    use SilverStripe\Forms\FormAction;
+    use SilverStripe\Forms\Form;
+    use SilverStripe\Forms\EmailField;
 
-    class ContactUsController extends ContentController
+
+
+    class ContactUsController extends PageController
     {
-        /**
-         * An array of actions that can be accessed via a request. Each array element should be an action name, and the
-         * permissions or conditions required to allow the user to access it.
-         *
-         * <code>
-         * [
-         *     'action', // anyone can access this action
-         *     'action' => true, // same as above
-         *     'action' => 'ADMIN', // you must have ADMIN permissions to access this action
-         *     'action' => '->checkAction' // you can only access this action if $this->checkAction() returns true
-         * ];
-         * </code>
-         *
-         * @var array
-         */
-        private static $allowed_actions = [];
+//        private static $allowed_actions = [
+//            'HelloForm'
+//        ];
+//
+//        public function HelloForm()
+//        {
+//            $fields = new FieldList(
+//
+//                TextField::create('name', 'Name')->addExtraClass(''),
+//                TextField::create('address', 'Address')
+//
+//            );
+//
+//            $actions = new FieldList(
+//                new FormAction('doInsertCall', 'submit')
+//            );
+//
+//            return new Form($this, 'HelloForm', $fields, $actions);
+//
+//
+//        }
+//
+//
+//
+//        public function doInsertCall($data, $form)
+//        {
+//            $submission = new ContactUs();
+//            $submission->write();
+//            $form->saveInto($submission);
+//            $submission->write();
+//
+//            return $this->redirectBack();
+//        }
 
-        protected function init()
+
+        private static $allowed_actions = ['Form'];
+        public function Form()
         {
-            parent::init();
-            // You can include any CSS or JS required by your project here.
-            // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
+            $fields = new FieldList(
+                new TextField('Name'),
+                new EmailField('Email'),
+                new TextareaField('Message')
+            );
+            $actions = new FieldList(
+                new FormAction('submit', 'Submit')
+            );
+            return new Form($this, 'Form', $fields, $actions);
         }
-    }
+
+
+
+
+        public function submit($data, $form)
+        {
+            $email = new Email();
+
+            $email->setTo('thilinamjayawardana@gmail.com');
+            $email->setFrom($data['Email']);
+            $email->setSubject("Contact Message from {$data["Name"]}");
+
+            $messageBody = " 
+            <p><strong>Name:</strong> {$data['Name']}</p> 
+            <p><strong>Message:</strong> {$data['Message']}</p> 
+        ";
+            $email->setBody($messageBody);
+            $email->send();
+            return [
+                'Content' => '<p>Thank you for your feedback.</p>',
+                'Form' => ''
+            ];
+        }
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

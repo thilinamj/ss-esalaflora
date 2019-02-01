@@ -103,7 +103,7 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 6px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;
@@ -344,10 +344,13 @@ $card-background: $white;
 $card-font-color: $body-font-color;
 $card-divider-background: $light-gray;
 $card-border: 1px solid $light-gray;
-$card-shadow: none;
+$card-shadow: 0 10px 20px 0 rgba ($dark-gray,0.6);
 $card-border-radius: $global-radius;
-$card-padding: $global-padding;
+$card-padding: 10px;
 $card-margin-bottom: $global-margin;
+$card-margin-top: 50px;
+
+
 
 // 15. Close Button
 // ----------------
