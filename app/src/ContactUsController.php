@@ -53,7 +53,7 @@ namespace {
         public function Form()
         {
             $fields = new FieldList(
-                new TextField('Name'),
+                new TextField('Name','','Name'),
                 new EmailField('Email'),
                 new TextareaField('Message')
             );
@@ -68,6 +68,8 @@ namespace {
 
         public function submit($data, $form)
         {
+
+            echo '<pre>'.print_r($from,1);die();
             $email = new Email();
 
             $email->setTo('thilinamjayawardana@gmail.com');
