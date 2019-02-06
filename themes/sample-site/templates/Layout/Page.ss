@@ -45,7 +45,7 @@
                 <div class="card-divider">
                     This is a header
                 </div>
-                <a href="#">
+                <a href="{$BaseHref}service">
                     <img src="{$ThemeDir}/static/images/cms/1.jpg" class="card-block__img">
                 </a>
                 <div class="card-section">
