@@ -17,6 +17,24 @@
   }
 }
 
+.category2{
+  img{
+    width:200px;
+    padding-top: 20px;
+  }
+
+}
+.wedding{
+  background-color: black;
+  h3{
+    color:white;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top:20px;
+    //padding-bottom:20px;
+    padding-left:50px;
+  }
+}
 
 $full-width-testimonial-quote-color: $warning-color;
 $full-width-testimonial-vertical-padding: 2rem;
@@ -34,7 +52,7 @@ $full-width-testimonial-vertical-padding: 2rem;
   .quote-path {
     fill:none;
     stroke: $full-width-testimonial-quote-color;
-    stroke-width:2.5192;
+    stroke-width:2.5192px;
     stroke-miterlimit:10;
   }
 }

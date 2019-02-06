@@ -21,8 +21,11 @@
     <session id="-233300699">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,7 +33,7 @@
           <entry key="env" value="1" />
           <entry key="json" value="1" />
           <entry key="php" value="4" />
-          <entry key="scss" value="3" />
+          <entry key="scss" value="4" />
           <entry key="ss" value="3" />
           <entry key="yml" value="1" />
         </counts>
@@ -40,7 +43,7 @@
           <entry key="JSON" value="1" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="3" />
+          <entry key="SCSS" value="4" />
           <entry key="SilverStripe" value="3" />
           <entry key="YAML" value="1" />
         </counts>
@@ -49,39 +52,45 @@
         <counts>
           <entry key="env" value="5" />
           <entry key="php" value="38" />
-          <entry key="scss" value="279" />
-          <entry key="ss" value="612" />
+          <entry key="scss" value="296" />
+          <entry key="ss" value="613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PHP" value="38" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="SCSS" value="279" />
-          <entry key="SilverStripe" value="612" />
+          <entry key="SCSS" value="296" />
+          <entry key="SilverStripe" value="613" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="72" column="13" selection-start-line="72" selection-end-line="72" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="630">
+              <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -94,6 +103,12 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>grid-container</find>
+      <find>$global-width</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,8 +133,8 @@
         <option value="$PROJECT_DIR$/app/src/pages/Services.php" />
         <option value="$PROJECT_DIR$/app/src/controllers/ServiceController.php" />
         <option value="$PROJECT_DIR$/themes/sample-site/static/scss/app.scss" />
-        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss" />
         <option value="$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss" />
+        <option value="$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss" />
       </list>
     </option>
   </component>
@@ -210,9 +225,9 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="77" />
+    <option name="y" value="30" />
     <option name="width" value="1414" />
     <option name="height" value="865" />
   </component>
@@ -408,18 +423,19 @@
       <workItem from="1548674488267" duration="1700000" />
       <workItem from="1548676863032" duration="2325000" />
       <workItem from="1548730712100" duration="10343000" />
-      <workItem from="1548746760139" duration="9110000" />
+      <workItem from="1548746760139" duration="9183000" />
+      <workItem from="1549423692125" duration="32000" />
+      <workItem from="1549423860576" duration="2058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27676000" />
+    <option name="totallyTimeSpent" value="29839000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1414" height="865" extended-state="0" />
-    <editor active="true" />
+    <frame x="77" y="30" width="1414" height="865" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22011662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,7 +448,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32988358" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41785252" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41785252" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -527,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_config/theme.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -565,9 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/controllers/ServicesController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/controllers/ServicesController.php" />
     <entry file="file://$PROJECT_DIR$/app/src/Page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -603,20 +610,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss">
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="125">
+          <caret line="72" column="13" selection-start-line="72" selection-end-line="72" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/sample-site/templates/Layout/Services.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/sample-site/static/scss/components/pages/_service.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
         </state>
       </provider>
     </entry>

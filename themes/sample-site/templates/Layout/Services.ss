@@ -48,7 +48,7 @@
 </div>
 
 <div class="category2">
-    <div class="wedding row ">
+    <div class="wedding row">
         <div class="columns small-12 medium-12 large-12">
             <h3>wedding</h3>
         </div>
