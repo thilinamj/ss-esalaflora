@@ -37,7 +37,7 @@ class Region extends DataObject
     public function getGridThumbnail()
     {
         if($this->Photo()->exists()) {
-            return $this->Photo()->ScaleWidth(100);
+            return $this->Photo()->ResizedImage(200, 300);
         }
 
         return "(no image)";

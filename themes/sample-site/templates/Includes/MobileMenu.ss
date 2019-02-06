@@ -1,7 +1,7 @@
 <div class="mobile-menu off-canvas position-left" id="mobileMenu" data-transition="overlap" data-off-canvas>
     <ul class="mobile-menu__nav vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
         <li class="mobile-menu__list-main">
-            <a href="#" class="mobile-menu__list-main__link">Services</a>
+            <a href="$BaseHref/Services/" class="mobile-menu__list-main__link">Services</a>
             <ul class="menu vertical nested">
                 <li><a href="#">link 1.1</a></li>
                 <li><a href="#">link 1.2</a></li>
